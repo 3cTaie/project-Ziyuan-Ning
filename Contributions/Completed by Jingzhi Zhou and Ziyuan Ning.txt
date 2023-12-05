@@ -1,0 +1,8 @@
+GameController:
+checkForWin(int[] position, int playerNumber)
+rollDice()
+
+Obstacle:
+getType()
+getPosition()
+isAtPosition(int[] playerPosition)

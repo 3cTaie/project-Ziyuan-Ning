@@ -1,0 +1,20 @@
+GameController:
+readPlayerNames()
+writeScoreToFile(int winNumber, int throwCount)
+writeTop10Scores()
+rank()
+
+GameResult:
+getPlayer()
+getThrowCount()
+
+Player:
+incrementThrowCount()
+getThrowCount()
+calculateDistance()
+StartButtonController
+
+handleStartGame():
+someMethod()
+
+PlayerTest

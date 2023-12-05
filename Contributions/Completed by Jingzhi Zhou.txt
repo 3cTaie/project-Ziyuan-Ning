@@ -1,0 +1,17 @@
+GameController:
+initialize()
+initializeBoard()
+positionPlayersInView(int x, int y)
+updatePlayerPosition(ImageView playerView, int newX, int newY)
+movePlayer(int playerNumber, int steps)
+checkForObstacles(int[] position, int playerNumber)
+encounterObstacle(Player player, Obstacle obstacle)
+updateTextFlow(String message)
+
+Player
+getPosition()
+isStoppedBySpike()
+setStoppedBySpike(boolean stopped)
+move(int steps)
+teleportToRandomLocation()
+reborn()
