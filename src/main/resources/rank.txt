@@ -1,0 +1,11 @@
+Top 10 Results:
+Rank 1: 451, Number of throws: 5
+Rank 2: 1, Number of throws: 6
+Rank 3: Ning, Number of throws: 7
+Rank 4: 2, Number of throws: 8
+Rank 5: 1, Number of throws: 8
+Rank 6: Ning, Number of throws: 10
+Rank 7: Joe, Number of throws: 10
+Rank 8: 2, Number of throws: 11
+Rank 9: 1, Number of throws: 12
+Rank 10: 2, Number of throws: 12

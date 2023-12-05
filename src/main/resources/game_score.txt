@@ -1,0 +1,48 @@
+Winning player: 2
+Number of throws: 17
+Winning player: 1
+Number of throws: 6
+Winning player: 2
+Number of throws: 8
+Winning player: 1
+Number of throws: 13
+Winning player: 2
+Number of throws: 13
+Winning player: 1
+Number of throws: 12
+Winning player: 2
+Number of throws: 12
+Winning player: 1
+Number of throws: 13
+Winning player: 1
+Number of throws: 8
+Winning player: 2
+Number of throws: 15
+Winning player: 2
+Number of throws: 11
+Winning player: 2
+Number of throws: 22
+Winning player: Joe
+Number of throws: 21
+Winning player: Ning
+Number of throws: 7
+Winning player: Ning
+Number of throws: 10
+Winning player: 1
+Number of throws: 13
+Winning player: asdf
+Number of throws: 15
+Winning player: asdasd
+Number of throws: 14
+Winning player: 451
+Number of throws: 5
+Winning player: 345
+Number of throws: 13
+Winning player: 74
+Number of throws: 14
+Winning player: Joe
+Number of throws: 10
+Winning player: John
+Number of throws: 17
+Winning player: 12
+Number of throws: 14

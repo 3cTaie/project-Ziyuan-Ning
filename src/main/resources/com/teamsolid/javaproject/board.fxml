@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="1061.0" prefWidth="1088.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.teamsolid.javaproject.GameController">
+    <children>
+        <GridPane fx:id="gameBoard" gridLinesVisible="true" hgap="5.0" layoutX="0.5" layoutY="0.5" vgap="5.0">
+            <!-- Column Constraints -->
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+
+            <!-- Row Constraints -->
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+        </GridPane>
+        <Button fx:id="rollButton" layoutX="91.0" layoutY="882.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="146.0" text="Roll" />
+        <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" layoutX="888.0" layoutY="617.0" pickOnBounds="true" preserveRatio="true" />
+        <TextFlow fx:id="textFlow" layoutX="520.0" layoutY="858.0" prefHeight="126.0" prefWidth="200.0" textAlignment="CENTER" />
+        <Label layoutX="937.0" layoutY="51.0" text="Rank">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Line endX="834.1000366210938" endY="834.0999755859375" startX="834.0999755859375" startY="0.4999984800815582" stroke="RED" strokeWidth="5.0" />
+        <Line endX="0.500012218952179" endY="834.0999755859375" startX="835.3070678710938" startY="834.8070678710938" stroke="RED" strokeWidth="5.0" />
+        <Line endX="0.5000103116035461" endY="834.0999755859375" startX="0.5000163912773132" startY="102.86446380615234" stroke="RED" strokeWidth="5.0" />
+        <Line endX="730.699951171875" endY="730.4928588867188" startX="730.7000122070312" startY="104.5999984741211" stroke="RED" strokeWidth="5.0" />
+        <Line endX="104.59290313720703" endY="731.2000122070312" startX="731.4070434570312" startY="731.2000122070312" stroke="RED" strokeWidth="5.0" />
+        <Line endX="104.09288024902344" endY="209.76446533203125" startX="104.09291076660156" startY="731.7000122070312" stroke="RED" strokeWidth="5.0" />
+        <Line endX="730.5645141601562" endY="102.9928970336914" startX="0.49998778104782104" startY="102.9928970336914" stroke="RED" strokeWidth="5.0" />
+        <Line endX="627.699951171875" endY="626.4928588867188" startX="627.7000122070312" startY="208.16445922851562" stroke="RED" strokeWidth="5.0" />
+        <Line endX="207.7929229736328" endY="626.9928588867188" startX="628.1998901367188" startY="626.9928588867188" stroke="RED" strokeWidth="5.0" />
+        <Line endX="207.2928924560547" endY="312.9644775390625" startX="207.2929229736328" startY="626.4928588867188" stroke="RED" strokeWidth="5.0" />
+        <Line endX="627.3644409179688" endY="205.19287109375" startX="107.36448669433594" startY="205.19287109375" stroke="RED" strokeWidth="5.0" />
+        <Line endX="522.0999755859375" endY="520.0928955078125" startX="522.0999755859375" startY="312.9644775390625" stroke="RED" strokeWidth="5.0" />
+        <Line endX="311.79290771484375" endY="520.5928955078125" startX="522.5999755859375" startY="520.5928955078125" stroke="RED" strokeWidth="5.0" />
+        <Line endX="311.29290771484375" endY="417.76446533203125" startX="311.29290771484375" startY="521.0928955078125" stroke="RED" strokeWidth="5.0" />
+        <Line endX="522.5645141601562" endY="313.1929016113281" startX="213.7644500732422" startY="313.1929016113281" stroke="RED" strokeWidth="5.0" />
+        <Line endX="417.29998779296875" endY="417.3000183105469" startX="311.29290771484375" startY="415.26446533203125" stroke="RED" strokeWidth="5.0" />
+        <Line endX="834.1000366210938" endY="0.5000003576278687" startX="1.2071044445037842" startY="3.814697322468419E-7" stroke="RED" strokeWidth="5.0" />
+        <TextFlow prefHeight="200.0" prefWidth="200.0" />
+        <TextFlow fx:id="rankTextFlow" layoutX="859.0" layoutY="116.0" prefHeight="437.0" prefWidth="200.0" textAlignment="CENTER" />
+    </children>
+</AnchorPane>
